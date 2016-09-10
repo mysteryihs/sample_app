@@ -5,6 +5,7 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
 	def setup
 		@admin = users(:michael)
     @non_admin = users(:archer)
+    @user = users(:michael)
 	end
 
   test "index as admin including pagination and delete links" do
@@ -28,6 +29,24 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
     log_in_as(@non_admin)
     get users_path
     assert_select 'a', text: 'delete', count: 0
+  end
+
+  test "successful edit with friendly forwarding" do
+    get edit_user_path(@user)
+    log_in_as(@user)
+    assert_redirected_to edit_user_path(@user)
+    name  = "Foo Bar"
+    email = "foo@bar.com"
+    patch user_path(@user), user: { name:  name,
+                                    email: email,
+                                    password:              "",
+                                    password_confirmation: "" }
+    assert_not flash.empty?
+    assert_redirected_to @user
+    @user.reload
+    assert_equal name,  @user.name
+    assert_equal email, @user.email
+    assert_equal session[:forwarding_url], nil
   end
 
 end

@@ -1,0 +1,77 @@
+[33mcommit 979a886bddba250e0e16419b487136746ed04efe[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Wed Aug 24 13:22:25 2016 -0700
+
+    Finish user edit, update, index, and destroy actions
+
+[33mcommit a5d3a3250165afdaeb9188e796858c5cdc784bfd[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Fri Aug 19 23:23:05 2016 -0700
+
+    Finish login in/log out
+
+[33mcommit 8f8aba347419aa78aafeb23287899075c88e7746[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Fri Aug 12 01:14:08 2016 -0700
+
+    Use SSL and the Puma webserver in production
+
+[33mcommit 5269defb47901b55cfc0b633be033a49e5ea436e[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Fri Aug 12 01:09:17 2016 -0700
+
+    Finish user signup
+
+[33mcommit e3a9e47261fb6385f3ca825ec6885821b6160504[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Sat Aug 6 16:55:17 2016 -0700
+
+    Make a basic User model (include secure passwords)
+
+[33mcommit 52a4b6079cf432fd85317897b813df13bc59d56b[m
+Author: Oscar Cheng Yih <oscaryih@hotmail.com>
+Date:   Mon Jul 25 19:48:52 2016 -0700
+
+    Finish layout and routes
+
+[33mcommit eb479af5147fb6aaa4354c1340d1bb2dac2cc049[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Fri Jul 15 00:09:43 2016 -0700
+
+    Add a full_title helper
+
+[33mcommit cef6dcb1d4beb1857c7eba406b0322f9e023c244[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Thu Jul 14 15:42:38 2016 -0700
+
+    complete advanced setup
+
+[33mcommit a52d9b9f32ead23b8e6fb899159c4dfc44a06874[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Thu Jul 14 14:22:10 2016 -0700
+
+    finish static pages
+
+[33mcommit 0f18bb83515aace45c937e7f9b4580f9523536be[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Wed Jul 13 17:36:53 2016 -0700
+
+    Add a Static Pages controller
+
+[33mcommit 1af327125a778c7d77844276c306347a6ff5b099[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Wed Jul 13 17:24:54 2016 -0700
+
+    Add hello
+
+[33mcommit 48089fd563dcef0b9b15a244ec3b2a4b55e59c88[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Wed Jul 13 17:22:46 2016 -0700
+
+    improve the README
+
+[33mcommit cd362225889c753ed536677e1cb98a11d39434ab[m
+Author: mysteryihs <oscaryih@hotmail.com>
+Date:   Wed Jul 13 16:37:24 2016 -0700
+
+    initialize repository
