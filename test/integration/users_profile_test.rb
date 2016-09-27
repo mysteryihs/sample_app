@@ -19,4 +19,10 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
 			assert_match micropost.content, response.body
 		end
 	end
+
+	test "home display" do
+		get '/'
+		assert_match @user.followers.count.to_s, response.body
+		assert_match @user.following.count.to_s, response.body
+	end
 end
